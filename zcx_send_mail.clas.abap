@@ -1,4 +1,4 @@
-class ZCX_SEND_MAIL definition
+class ZCX_MAIL_SEND definition
   public
   inheriting from CX_STATIC_CHECK
   final.
@@ -19,7 +19,7 @@ private section.
 *"* do not include other source files here!!!
 ENDCLASS.
 
-CLASS ZCX_SEND_MAIL IMPLEMENTATION.
+CLASS ZCX_MAIL_SEND IMPLEMENTATION.
 * <SIGNATURE>---------------------------------------------------------------------------------------+
 * | Instance Public Method ZCX_CRT->CONSTRUCTOR
 * +-------------------------------------------------------------------------------------------------+
